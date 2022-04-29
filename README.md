@@ -45,5 +45,5 @@ Input for Extended Battery Use in IoT Applications”, 2021 IEEE International M
 
 ## Team Members
 B.Eng. Kontogiannis Stefanos
-B.Eng. Andreas Tsiougkos
+M.Sc. Andreas Tsiougkos
 Ph.D. Vasilis F. Pavlidis
