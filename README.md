@@ -11,9 +11,12 @@ IoT devices have become very widespread and as such the need for efficient power
 
 ## Description
 This design is composed of four circuits. A PWM boost converter, two versions of a novel non-PWM boost converter, one including a transformer on the chip and one without, and a switched-capacitor circuit. These circuits cover a range of battery powered IoT devices’ power demands with current draws in the range of single digit to a couple of tens of milliamperes.
+
 The PWM boost converter contains a PWM block on chip, consisting of a Schmitt trigger and an Integrator that feeds a Comparator. Through its feedback, this implementation can provide good output voltage regulation but with the associated power consumption the PWM block itself brings. It will be the benchmark against which we compare the novel booster topologies.
 The switched-capacitor circuit will consist of a four-phase non overlapping clock generator and a four-stage parallel charge pump. It implements a burst-mode pulse frequency modulation to achieve better efficiency in a large range of load currents. Due to its nature, this circuit cannot provide very high load currents.
+
 The PWM-free novel boost converter aims to bridge the gap between existing low-voltage low-current converters such as switched capacitor-converters and traditional PWM boost converters. It features a single stage topology and the absence of a PWM block that reduces total dissipated power and complexity, while maintaining high power efficiency.
+
 The circuit consists of a bipolar junction transistor current mirror connected to a transformer with inverted secondary winding, forming a closed loop and generating positive feedback for voltage boosting. The current mirror transistor on the output side is driven by a pulse train and it determines the output voltage. The frequency of the pulses is largely determined by the transformer characteristics and the selected output goals.
 This topology has the potential of high output current and maintaining a minimum output voltage for an extended period of time as the input voltage decreases, thus can be an excellent alternative with the potential to outperform traditional analogous circuits.
 
