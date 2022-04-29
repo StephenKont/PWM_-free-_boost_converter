@@ -44,6 +44,6 @@ Input for Extended Battery Use in IoT Applications”, 2021 IEEE International M
 [2] A. Veerabathini and P. M. Furth, "A Low Output Voltage Ripple Fully-Integrated Switched-Capacitor DC-DC Converter," 2019 IEEE 62nd International Midwest Symposium on Circuits and Systems (MWSCAS).
 
 ## Team Members
-B.Eng. Kontogiannis Stefanos\
+B.Eng. Stefanos Kontogiannis\
 M.Sc. Andreas Tsiougkos\
 Ph.D. Vasilis F. Pavlidis
