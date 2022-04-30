@@ -11,7 +11,7 @@ IoT devices have become widespread and as such the need for efficient power mana
 This design is composed of four circuits. A PWM boost converter, two versions of a novel non-PWM boost converter, one including a transformer on the chip and one without (as producing high self-inductance on-chip may be challenging), and a switched-capacitor circuit as shown in the top-level diagram of Fig. 1. These circuits cover a range of battery powered IoT devices’ power demands with current draws in the range of single digit to a couple of tens of milliamperes.
 
 <img src="/Resources/chip_overview.png" width="570" height="432" />
-Figure 1<br/>
+Figure 1  
 
 The PWM boost converter, depicted in Fig. 2, contains a PWM block on chip, consisting of a Schmitt trigger and an Integrator that feeds a Comparator. Through its feedback, this implementation can provide satisfying output voltage regulation but with the associated overhead in power incurred by the PWM block. This circuit will serve as the benchmark against which we compare the novel booster topologies.
 
