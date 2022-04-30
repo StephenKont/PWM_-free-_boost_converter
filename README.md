@@ -18,7 +18,7 @@ The PWM boost converter, depicted in Fig. 2, contains a PWM block on chip, consi
 
 The switched-capacitor circuit will consist of a four-phase non overlapping clock generator and a four-stage parallel charge pump as illustrated in Fig. 3. It implements a burst-mode pulse frequency modulation to achieve better efficiency in a large range of load currents.
 
-<img src="/Resources/scc.png" width="570" height="432" />
+<img src="/Resources/scc.png" width="620" height="432" />
 
 The PWM-free novel boost converter aims to bridge the gap between existing low-voltage low-current converters such as switched capacitor-converters and traditional PWM boost converters. It features a single stage topology and the absence of a PWM block that reduces total dissipated power and complexity, while maintaining high power efficiency.
 
