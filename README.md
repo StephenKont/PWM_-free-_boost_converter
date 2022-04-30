@@ -4,7 +4,7 @@ A repository (to be updated) containing schematics, simulation results and physi
 ## Summary
 This design contains a novel non-PWM boost converter for extension of the battery life in IoT application, a traditional PWM boost converter and a switched-capacitor boost converter. The purpose is to perform a comparative analysis between the non-PWM boost converter and the other topologies for a 1.5 V battery source scenario in order to point out the significance of the non-PWM boost converter via the metrics of power efficiency, load regulation, quiescent current.
 
-<img src="/Resources/chip.png" width="570" height="432" />
+<img src="/Resources/chip_overview.png" width="570" height="432" />
 
 ## Design Goals
 IoT devices have become very widespread and as such the need for efficient power management has increased. Specifically, battery powered IoT devices in remote networks benefit greatly from efficient power delivery systems that can utilize as much of the stored energy as possible, extending service intervals and reducing maintenance costs. Our design contains a non-PWM novel boost converter topology that can deliver high load currents and maintain high output voltage even at low battery levels, alongside a traditional PWM and a switched-capacitor boost circuit. We aim to compare their performance characteristics for various load currents and minimum output voltages and examine their peak efficiency as well as their behavior as the input voltage drops due to battery discharge, thus concluding the useful lifetime they allow.
