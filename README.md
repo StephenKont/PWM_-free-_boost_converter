@@ -25,7 +25,7 @@ The PWM-free novel boost converter aims to bridge the gap between existing low-v
 The circuit consists of a bipolar junction transistor current mirror connected to a transformer with inverted secondary coil, as shown in Fig. 4, forming a closed loop and generating positive feedback for voltage boosting. The current mirror transistor on the output side is driven by a pulse train and it determines the output voltage. The frequency of the pulses is largely determined by the transformer characteristics and the selected output objectives.
 
 
-<img src="/Resources/pwmfreeboost.png" width="570" height="432" />
+<img src="/Resources/pwmfreeboost.png" width="620" height="432" />
 
 We will explore the potential of this topology to provide high output current and maintain a minimum output voltage for an extended period of time as the input voltage decreases due to gradual battery discharge.
 
