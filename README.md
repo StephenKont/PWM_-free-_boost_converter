@@ -11,17 +11,14 @@ IoT devices have become widespread and as such the need for efficient power mana
 This design is composed of four circuits. A PWM boost converter, two versions of a novel non-PWM boost converter, one including a transformer on the chip and one without (as producing high self-inductance on-chip may be challenging), and a switched-capacitor circuit as shown in the top-level diagram of Fig. 1. These circuits cover a range of battery powered IoT devices’ power demands with current draws in the range of single digit to a couple of tens of milliamperes.
 
 <img src="/Resources/chip_overview.png" width="570" height="432" />
-Figure 1  
 
 The PWM boost converter, depicted in Fig. 2, contains a PWM block on chip, consisting of a Schmitt trigger and an Integrator that feeds a Comparator. Through its feedback, this implementation can provide satisfying output voltage regulation but with the associated overhead in power incurred by the PWM block. This circuit will serve as the benchmark against which we compare the novel booster topologies.
 
 <img src="/Resources/pwmboost.png" width="570" height="432" />
-*Figure 2*
 
 The switched-capacitor circuit will consist of a four-phase non overlapping clock generator and a four-stage parallel charge pump as illustrated in Fig. 3. It implements a burst-mode pulse frequency modulation to achieve better efficiency in a large range of load currents.
 
 <img src="/Resources/scc.png" width="570" height="432" />
-*Figure 3*
 
 The PWM-free novel boost converter aims to bridge the gap between existing low-voltage low-current converters such as switched capacitor-converters and traditional PWM boost converters. It features a single stage topology and the absence of a PWM block that reduces total dissipated power and complexity, while maintaining high power efficiency.
 
@@ -29,7 +26,6 @@ The circuit consists of a bipolar junction transistor current mirror connected t
 
 
 <img src="/Resources/pwmfreeboost.png" width="570" height="432" />
-*Figure 4*
 
 We will explore the potential of this topology to provide high output current and maintain a minimum output voltage for an extended period of time as the input voltage decreases due to gradual battery discharge.
 
